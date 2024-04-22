@@ -1,0 +1,6 @@
+dataset_path: sator-labs/recos-letter-eval
+task: recos-letter-eval
+process_results: !function utils.process_docs
+doc_to_text: prompt
+validation_split: train
+test_split: train
